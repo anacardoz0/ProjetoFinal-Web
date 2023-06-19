@@ -1,0 +1,105 @@
+
+body {
+    background-color: rgb(110, 62, 62);
+    font: 20px;
+    color: #000000;
+    margin: 0;
+    padding: 0;
+}
+
+.background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    filter: blur(7px);
+    z-index: -1;
+    background-image: url("Midias/setup.png");
+    box-shadow: 300px 300px 300px #000000;
+}
+
+.container {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #2f073f;
+    box-shadow: 3px 3px 15px #000000;
+    width: 400px;
+    height: 300px;
+    border-radius: 20px;
+}
+
+.container h1 {
+    margin-top: 20px;
+    color: #e2e2e2;
+}
+
+.container form {
+    margin-top: 30px;
+}
+
+.container form label {
+    display: block;
+    margin-bottom: 10px;
+    color: #e2e2e2;
+}
+
+.container form input[type="email"],
+.container form input[type="password"] {
+    width: 80%;
+    padding: 5px;
+    margin-bottom: 10px;
+    border-radius: 7px;
+    background-color: black;
+    color: white;
+    border: none;
+    box-shadow: 2px 2px 10px #000000;
+}
+
+.container form button[type="submit"] {
+    background-color: #000000;
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+.header a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 20px;
+}
+.sair-button {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    padding: 10px 20px;
+    border-radius: 20px;
+    background-color: #460000;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+input {
+    border-radius: 5px;
+    margin: 10px;
+
+    box-shadow: 3px 3px 15px #000000;
+  }
+
+
+ 
